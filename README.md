@@ -3,9 +3,14 @@
 https://disk.yandex.ru/i/Uk4n1E9XP5oVWA
 
 *Изучив PostgreSQL могу сказать, что он потребляет меньше ресурсов, но при этом по отзывам медленнее MSSQL (проверить сам не мог, т.к. не имею огромных БД), ну и плюсом заметил его в учебном плане ВУЗа :)
-```
 
-Создаем базу данных в консоли при помощи утилиты psql
+Пользователь `user@mail.ru`, пароль `qwerty`
+Пользователь `admin@mail.ru`, пароль `qwerty`
+
+Создаем базу данных при помощи pgadmin
+https://metanit.com/sql/postgresql/2.1.php
+
+Или в консоли при помощи утилиты psql
 
 ```
 "C:\Program Files\PostgreSQL\16\bin\psql" -U postgres
@@ -14,6 +19,7 @@ https://disk.yandex.ru/i/Uk4n1E9XP5oVWA
 postgres=# CREATE DATABASE ArtDB;
 
 postgres=# \q
+
 ```
 
 Имя БД и логин-пароль прописывам в `server/.env`
@@ -50,6 +56,4 @@ npm start
 
 ```
 
-Пользователь `user@mail.ru`, пароль `qwerty`
-Пользователь `admin@mail.ru`, пароль `qwerty`
 
