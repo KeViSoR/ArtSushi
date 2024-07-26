@@ -1,0 +1,15 @@
+{
+  "name": "javascript-shop-master",
+  "version": "1.0.0",
+  "description": "![Простой магазин на JavaScript](https://tokmakov.msk.ru/files/blog/664/shop.gif)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
